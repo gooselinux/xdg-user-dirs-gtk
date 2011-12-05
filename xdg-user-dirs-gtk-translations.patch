@@ -1,0 +1,977 @@
+--- a/po/as.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/as.po  2010-04-27 18:55:23.299011898 +0530
+@@ -0,0 +1,70 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Amitakhya Phukan <aphukan@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: el 6\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-07 11:43+0530\n"
++"Last-Translator: Amitakhya Phukan <aphukan@redhat.com>\n"
++"Language-Team: Assamese <>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=n != 1;\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "মানপ্ৰাপ্ত ফোল্ডাৰক বৰ্ত্তমানৰ ভাষালৈ উন্নত কৰোঁ ?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr ""
++"আপুনি এটা নতুন ভাষাত প্ৰৱেশ কৰিছে । আপোনাৰ ঘৰৰ ফোল্ডাৰৰ কিছুমান মানপ্ৰাপ্ত "
++"ফোল্ডাৰক এই ভাষাৰ লগত মিলাই সিহঁতৰ নাম উন্নয়ন কৰিব পাৰে । উন্নয়নে এই "
++"ফোল্ডাৰসমূহক সলনি কৰিব:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "পুৰনি নাম ৰাখক (_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "নামবোৰ উন্নত কৰক (_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "বৰ্ত্তমানৰ ফোল্ডাৰৰ নাম"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "নতুন ফোল্ডাৰ নাম"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "মন কৰিব যে বৰ্ত্তমানৰ বিষয়বস্তু অন্য স্থানলৈ নিয়া ন'হ'ব ।"
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "মোক আকৌ এইটো নুশুধিব (_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ফোল্ডাৰবোৰ উন্নয়ন কৰোঁতে এটা ভুল হৈছে"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "বৰ্ত্তমানৰ লোকেইলৰ লগত মিলাবলৈ সাধাৰণ ফোল্ডাৰৰ নাম উন্নয়ন কৰক"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "ব্যৱহাৰকৰ্তাৰ ফোল্ডাৰৰ উন্নয়ন"
++
+--- a/po/bn_IN.po       1970-01-01 05:30:00.000000000 +0530
++++ a/po/bn_IN.po       2010-04-27 18:55:23.319011765 +0530
+@@ -0,0 +1,66 @@ 
++# translation of bn_IN.po to Bengali INDIA
++# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the PACKAGE package.
++#
++# Runa Bhattacharjee <runab@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: bn_IN\n"
++"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=xdg-user-dirs-gtk&component=general\n"
++"POT-Creation-Date: 2010-03-16 08:39+0000\n"
++"PO-Revision-Date: 2010-04-07 20:10+0530\n"
++"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
++"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "বর্তমানে ব্যবহৃত ভাষা অনুযায়ী সাধারণ ফোল্ডারগুলি পরিবর্তন করা হবে কি?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr "নতুন ভাষা ব্যবহার করে লগ-ইন করা হয়েছে। সংশ্লিষ্ট ভাষা অনুযায়ী, ব্যবহারকারীর ব্যক্তিগত ফোল্ডারের মধ্যে অন্তর্ভুক্ত সাধারণ ফোল্ডারগুলির নাম পরিবর্তন করা যাবে। এর ফলে, নিম্নলিখিত ফোল্ডারগুলির নাম পরিবর্তিত হবে:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "পুরোনো নাম অপরিবর্তিত রাখা হবে (_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "বর্তমান ভাষা অনুযায়ী নাম আপডেট করা হবে (_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "ফোল্ডারের বর্তমান নাম"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "ফোল্ডারের নতুন নাম"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "উল্লেখ্য, অন্তর্ভুক্ত উপস্থিত সামগ্রীর নাম পরিবর্তন করা হবে না।"
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "পুনরায় জিজ্ঞাসা করা হবে না (_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ফোল্ডারের নাম আপডেট করতে সমস্যা"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "বর্তমান লোকেইল অনুযায়ী, সাধারণ ফোল্ডারগুলির নাম পরিবর্তন করা হবে"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "ব্যবহারকারীর ফোল্ডার আপডেট"
++
+--- a/po/gu.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/gu.po  2010-04-27 18:55:23.264003555 +0530
+@@ -0,0 +1,68 @@ 
++# translation of xdg-user-dirs-gtk.master.po to Gujarati
++# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the PACKAGE package.
++#
++# Sweta Kothari <swkothar@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: xdg-user-dirs-gtk.master\n"
++"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=xdg-"
++"user-dirs-gtk&component=general\n"
++"POT-Creation-Date: 2010-03-15 13:31+0000\n"
++"PO-Revision-Date: 2010-03-12 16:43+0530\n"
++"Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
++"Language-Team: Gujarati\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "શું હાલની ભાષા માટે મૂળભૂત ફોલ્ડરોને સુધારો છો?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr ""
++"તમે નવી ભાષામાં પ્રવેશેલ છો. તમે આ ભાષાને બંધબેસાડવા માટે તમારા હોમ ફોલ્ડરમાં અમુક મૂળભૂત "
++"ફોલ્ડરોનાં નામોને આપમેળે સુધારી શકો છો. સુધારો નીચેનાં ફોલ્ડોને બદલશે:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "જૂનાં નામોને રાખો (_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "નામોને સુધારો (_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "હાલનું ફોલ્ડર નામ"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "નવું ફોલ્ડર નામ"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "નોંધો કે હાલનું સમાવિષ્ટ એ ખસેડાશે નહિં."
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "આ ફરીથી મને પૂછો નહિં (_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ત્યાં ફોલ્ડરોને સુધારતી વખતે ભૂલ હતી"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "હાલનાં લોકેલ ને બંધબેસતા સામાન્ય ફોલ્ડર નામોને સુધારો"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "વપરાશકર્તાનાં ફોલ્ડરોનો સુધારો"
+--- a/po/hi.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/hi.po  2010-04-27 18:55:23.257133684 +0530
+@@ -0,0 +1,68 @@ 
++# translation of hi.po to Hindi
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Rajesh Ranjan <rranjan@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: hi\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-05 12:26+0530\n"
++"Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
++"Language-Team: Hindi <Red Hat>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "मौजूदा भाषा में मानक फोल्डर अद्यतन करें?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr "आपने नई भाषा में लॉगिन किया है. आप कुछ मानक फोल्डरों के नाम अपने घर फोल्डर में इस भाषा से मेल खाने के लिए स्वतः अद्यतन कर सकते हैं. अद्यतन निम्नलिखित फोल्डर को बदल देगा:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "पुराने नाम बनाए रखें (_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "नाम अद्यतन करें (_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "मौजूदा फोल्डर नाम"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "नया फ़ोल्डर नाम"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "नोट करें कि मौजूदा सामग्री खिसका दी जाएगी."
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "मुझसे इसके बारे में फिर मत पूछें (_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "फोल्डर को अद्यतन करने में एक त्रुटि थी."
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "मौजूदा फोल्डर से मेल खाने के लिए सामान्य फोल्डर नाम को अद्यतन करें"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "उपयोक्ता फोल्डर अद्यतन"
++
+--- a/po/kn.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/kn.po  2010-04-27 18:55:23.307011851 +0530
+@@ -0,0 +1,72 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Shankar Prasad <svenkate@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: el 6\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-07 11:59+0530\n"
++"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
++"Language-Team: kn-IN <>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=n != 1;\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "ಶಿಷ್ಟ ಕಡತಕೋಶದ ಹೆಸರುಗಳನ್ನು ಪ್ರಸಕ್ತ ಭಾಷೆಗೆ ಬದಲಾಯಿಸಬೇಕೆ?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr ""
++"ನೀವು ಒಂದು ಹೊಸ ಭಾಷೆಯಲ್ಲಿ ಪ್ರವೇಶಿಸಿದ್ದೀರಿ. ಈ ಭಾಷೆಗೆ ಹೊಂದಿಕೆಯಾಗುವಂತೆ ಕೆಲವು "
++"ಪ್ರಮುಖ ಕಡತಕೋಶಗಳ ಹೆಸರನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಬದಲಾಯಿಸಬಹುದು. ಈ ಬದಲಾವಣೆಯು ಈ ಕೆಳಗಿನ "
++"ಕಡತಕೋಶಗಳಲ್ಲಿ ಬದಲಾವಣೆಯನ್ನು ಮಾಡುತ್ತದೆ:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "ಹಿಂದಿನ ಹೆಸರುಗಳನ್ನು ಇರಿಸಿಕೊ(_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "ಹೆಸರುಗಳನ್ನು ಬದಲಾಯಿಸು(_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "ಪ್ರಸಕ್ತ ಕಡತಕೋಶದ ಹೆಸರು"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "ಹೊಸ ಕಡತಕೋಶದ ಹೆಸರು"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "ಅವುಗಳಲ್ಲಿ ಈಗಿರುವ ಅಂಶಗಳನ್ನು ಸ್ಥಳಾಂತರಿಸುವುದಿಲ್ಲ ಎಂಬುದನ್ನು ನೆನಪಿಡಿ."
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "ನನ್ನನ್ನು ಇನ್ನೊಮ್ಮೆ ಕೇಳಬೇಡ(_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ಕಡತಕೋಶಗಳ ಹೆಸರುಗಳನ್ನು ಬದಲಾಯಿಸುವಾಗ ಒಂದು ದೋಷ ಉಂಟಾಗಿದೆ"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr ""
++"ಪ್ರಸಕ್ತ ಭಾಷೆಗೆ(ಲೊಕ್ಯಾಲ್‌) ಹೊಂದಿಕೊಳ್ಳುವಂತೆ ಸಾಮಾನ್ಯ ಕಡತಕೋಶದ ಹೆಸರುಗಳನ್ನು "
++"ಬದಲಾಯಿಸಿ"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "ಬಳಕೆದಾರ ಕಡತಕೋಶಗಳ ಅಪ್‌ಡೇಟ್‌"
++
+--- a/po/ml.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/ml.po  2010-04-27 18:55:23.333005020 +0530
+@@ -0,0 +1,64 @@ 
++# SOME DESCRIPTIVE TITLE.
++# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
++# This file is distributed under the same license as xdg-user-dirs-gtk.
++# Ani Peter <apeter@redhat.com>, 2010.
++
++msgid ""
++msgstr ""
++"Project-Id-Version: ml\n"
++"POT-Creation-Date: 2009-10-26 18:55+0000\n"
++"PO-Revision-Date: 2010-02-08 17:38+0530\n"
++"Last-Translator: Ani Peter | അനി പീറ്റര്‍ <apeter@redhat.com>\n"
++"Language-Team: Swathanthra Malayalam Computing | സ്വതന്ത്ര മലയാളം കമ്പ്യൂട്ടിങ് <smc-discuss@googlegroups.com>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "ഇപ്പോഴുള്ള ഭാഷയിലേക്കു് സാധാരണ ഫോള്‍ഡറുകള്‍ പരിഷ്കരിക്കണമോ?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr "നിങ്ങള്‍ മറ്റൊരു ഭാഷയില്‍ പ്രവേശിച്ചിരിക്കുന്നു. നിങ്ങളുടെ ഹോം ഫോള്‍ഡറിലുള്ള ചില സാധാരണ ഫോള്‍ഡറുകളുടെ പേരു് ഈ ഭാഷയിലേക്കു് നിങ്ങള്‍ക്കു് സ്വയം പരിഷ്കരിക്കാം."
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "പഴയ പേരുകള്‍ _സൂക്ഷിക്കുക"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "പേരുകള്‍ _പരിഷ്കരിക്കുക"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "ഇപ്പോഴത്തെ ഫോള്‍ഡര്‍ നാമം"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "പുതിയ ഫോള്‍ഡര്‍ നാമം"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "നിലവിലുള്ളവ നീക്കം ചെയ്യുന്നതല്ല."
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "_ഇനി ചോദിക്കരുതു്"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ഫോള്‍ഡറുകള്‍ പരിഷ്കരിക്കുന്നതില്‍ പിഴവു്"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "ഇപ്പോഴുള്ള ലൊക്കേലുമായി പൊരുത്തപ്പെടുന്ന സാധാരണ ഫോള്‍ഡര്‍ നാമങ്ങള്‍ നല്‍കുക"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "ഉപയോക്താവിന്റെ ഫോള്‍ഡറുകളുടെ പരിഷ്കരണം"
+--- a/po/or.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/or.po  2010-04-27 18:55:23.274011790 +0530
+@@ -0,0 +1,71 @@ 
++# translation of or.po to Oriya
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Manoj Kumar Giri <mgiri@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: or\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-06 10:13+0530\n"
++"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
++"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "ମାନକ ଫୋଲଡରଗୁଡ଼ିକୁ ପ୍ରଚଳିତ ଭାଷାରେ ଅଦ୍ୟତନ କରିବେ କି?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr ""
++"ଆପଣ ଗୋଟିଏ ନୂତନ ଭାଷାକୁ ଲଗ କରିଛନ୍ତି। ଆପଣ ସ୍ୱୟଂଚାଳିତ ଭାବରେ କିଛି ମାନକ ଫୋଲଡରଗୁଡ଼ିକର ନାମକୁ "
++"ଏହି ଭାଷା ସହିତ ମେଳାଇବା ପାଇଁ ଆପଣଙ୍କ ହୋମ ଫୋଲଡରରେ ଅଦ୍ୟତନ କରିପାରିବେ। ସେହି ଅଦ୍ୟତନ ନିମ୍ନଲିଖିତ "
++"ଫୋଲଡରଗୁଡ଼ିକୁ ପରିବର୍ତ୍ତନ କରିପାରିବ:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "ପୁରୁଣା ନାମଗୁଡ଼ିକୁ ରଖନ୍ତୁ (_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "ନାମଗୁଡ଼ିକୁ ଅଦ୍ୟତନ କରନ୍ତୁ (_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "ପ୍ରଚଳିତ ଫୋଲଡର ନାମ"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "ନୂତନ ଫୋଲଡର ନାମ"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "ମନେରଖନ୍ତୁ ଯେ ସ୍ଥିତବାନ ବିଷୟବସ୍ତୁଗୁଡ଼ିକୁ କଢ଼ାଯିବ ନାହିଁ।"
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "ମୋତେ ଏହା ପୁଣିଥରେ ପଚାରନ୍ତୁ ନାହିଁ (_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ଫୋଲଡରଗୁଡ଼ିକୁ ଅଦ୍ୟତନ କରିବା ସମୟରେ ଗୋଟିଏ ତ୍ରୁଟି ଘଟିଥିଲା"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "ପ୍ରଚଳିତ ଭାଷା ସହିତ ମେଳାଇବା ପାଇଁ ସାଧାରଣ ଫୋଲଡର ନାମଗୁଡ଼ିକୁ ଅଦ୍ୟତନ କରନ୍ତୁ"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "ଚାଳକ ଫୋଲଡରଗୁଡ଼ିକର ଅଦ୍ୟତନ"
++
+--- a/po/pa.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/pa.po  2010-04-27 18:55:23.287011773 +0530
+@@ -0,0 +1,70 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Jaswinder Singh <jsingh@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: el 6\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-06 11:46+0530\n"
++"Last-Translator: Jaswinder Singh <jsingh@redhat.com>\n"
++"Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=n != 1;\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "ਕੀ ਸਟੈਂਡਰਡ ਫੋਲਡਰਾਂ ਨੂੰ ਮੌਜੂਦਾ ਭਾਸ਼ਾ ਲਈ ਅੱਪਡੇਟ ਕਰਨਾ ਹੈ?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr ""
++"ਤੁਸੀਂ ਇੱਕ ਨਵੀਂ ਭਾਸ਼ਾ ਨਾਲ ਲਾਗਇਨ ਕੀਤਾ ਹੈ। ਤੁਸੀਂ ਆਪਣੇ ਘਰ ਫੋਲਡਰ ਵਿੱਚ ਕੁਝ ਸਟੈਂਡਰਡ "
++"ਫੋਲਡਰਾਂ ਨੂੰ ਆਪਣੀ "
++"ਇਹ ਭਾਸ਼ਾ ਨਾਲ ਮਿਲਾਉਣ ਲਈ ਅੱਪਡੇਟ ਕਰ ਸਕਦੇ ਹੋ। ਇਹ ਅੱਪਡੇਟ ਅੱਗੇ ਦਿੱਤੇ ਫੋਲਡਰ ਬਦਲੇਗਾ:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "ਪੁਰਾਣੇ ਨਾਂ ਹੀ ਰੱਖੋ(_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "ਨਾਂ ਅੱਪਡੇਟ ਕਰ ਦਿਓ(_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "ਮੌਜੂਦਾ ਫੋਲਡਰ ਨਾਂ"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "ਨਵਾਂ ਫੋਲਡਰ ਨਾਂ"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "ਯਾਦ ਰੱਖੋ ਕਿ ਮੌਜੂਦਾ ਸਮੱਗਰੀ ਹਿਲਾਈ ਨਹੀਂ ਜਾਵੇਗੀ।"
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "ਮੈਨੂੰ ਮੁੜ ਨਾ ਪੁੱਛੋ(_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ਫੋਲਡਰ ਅੱਪਡੇਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "ਆਮ ਫੋਲਡਰ ਨਾਂ ਮੌਜੂਦਾ ਲੋਕੇਲ ਨਾਲ ਮਿਲਾਉਣ ਵਾਸਤੇ ਅੱਪਡੇਟ"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "ਯੂਜ਼ਰ ਫੋਲਡਰ ਅੱਪਡੇਟ"
++
+--- a/po/ru.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/ru.po  2010-04-27 18:55:23.328012474 +0530
+@@ -0,0 +1,69 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Yulia <ypoyarko@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: ru\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-08 17:02+1000\n"
++"Last-Translator: Yulia <ypoyarko@redhat.com>\n"
++"Language-Team: Russian\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "Обновить стандартные папки для текущего языка?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr "Вы выбрали другой язык при входе в систему. Вы можете автоматически обновить имена некоторых стандартных папок в вашем домашнем каталоге для соответствия этому языку. Обновление затронет следующие папки:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "_Сохранить прежние имена"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "_Обновить имена"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "Текущее имя папки"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "Новое имя папки"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "Внимание: содержимое папок не будет перемещено."
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "_Не спрашивать в дальнейшем"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "Ошибка при обновлении папок"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr ""
++"Обновить стандартные папки для соответствия текущему языку"
++"      "
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "Обновление пользовательских папок"
++
+--- a/po/ta.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/ta.po  2010-04-27 18:55:23.294011782 +0530
+@@ -0,0 +1,69 @@ 
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: el 6\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-07 04:21+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=n != 1;\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "வழக்கமான கோப்புறைகளை நடப்பு மொழிக்கு புதுப்பிக்கவா?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr ""
++"நீங்கள் ஒரு புதிய மொழியில் உள்நுழைந்துள்ளீர்கள். இந்த மொழிக்கு பொருந்தும் "
++"சில வழக்கமான கோப்புறைகள் உங்கள் இல்ல கோப்புறை பெயர்களுக்கு தானாக "
++"புதுப்பிக்கலாம். இந்த புதுப்பித்தல் பின்வரும் கோப்புறைகளை மாற்றும்:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "பழைய பெயரை வை (_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "பெயர்களை புதுப்பி (_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "நடப்பு கோப்புறை பெயர்"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "புதிய கோப்புறை பெயர்"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "இருக்கும் உள்ளடக்கம் நகர்த்தப்படாது."
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "இதனை மீண்டும் கேட்காதே (_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "கோப்புறையை புதுப்பிக்கும்போது பிழை"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "நடப்பு மொழியை பொருத்தும் பொது கோப்புறை பெயர்கள் புதுப்பித்தல்"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "பயனர் கோப்புறைகள் புதுப்பித்தல்"
++
+--- a/po/te.po  1970-01-01 05:30:00.000000000 +0530
++++ a/po/te.po  2010-04-27 18:55:23.321004169 +0530
+@@ -0,0 +1,70 @@ 
++# translation of xdg-user-dirs-gtk.po.master.te.po to Telugu
++# Telugu translation for xdg-user-dirs-gtk.
++# Copyright (C) 2010 xdg-user-dirs-gtk's COPYRIGHT HOLDER
++# This file is distributed under the same license as the xdg-user-dirs-gtk package.
++#
++# Krishna Babu K <kkrothap@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: xdg-user-dirs-gtk.po.master.te\n"
++"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=xdg-"
++"user-dirs-gtk&component=general\n"
++"POT-Creation-Date: 2010-01-28 09:12+0000\n"
++"PO-Revision-Date: 2010-01-28 13:40+0530\n"
++"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
++"Language-Team: Telugu <en@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++"\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "ప్రామాణిక ఫోల్డర్లను ప్రస్తుత భాషనకు నవీకరించవలెనా?"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr ""
++"మీరు కొత్త భాషనకు లాగిన్ అయినారు. మీరు కొన్ని ప్రామాణిక ఫోల్డర్ల నామాలను స్వయంచాలకంగా ఈ భాషనకు "
++"మార్చుకొనవచ్చును. ఇది ఈ క్రింది ఫోల్డర్లను మార్చుతుంది:"
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "పాత నామములను వుంచుము (_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "నామములను నవీకరించుము (_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "ప్రస్తుత ఫోల్డర్ నామము"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "కొత్త ఫోల్డర్ నామము"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "ఇప్పటికే వున్న సారము కదిలించబడదని గమనించండి."
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "ఇది మళ్ళీ నన్ను అడుగవద్దు (_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "ఫోల్డర్లను నవీకరించుటలో అక్కడ వొక దోషము వుంది"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "ఉమ్మడి ఫోల్డర్ నామములను ప్రస్తుత స్థానికానికి నవీకరించుము"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "వినియోగదారి ఫోల్డర్ల నవీకరణ"
+--- a/po/zh_CN.po       1970-01-01 05:30:00.000000000 +0530
++++ a/po/zh_CN.po       2010-04-27 18:55:23.340003505 +0530
+@@ -0,0 +1,67 @@ 
++# translation of zh_CN.po to Wei Liu
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Leah Liu <lliu@redhat.com>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: zh_CN\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-12 15:59+1000\n"
++"Last-Translator: Leah Liu <lliu@redhat.com>\n"
++"Language-Team: Wei Liu\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "将标准文件夹更新到当前语言吗"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr "您已经登录到新语言中。您可以自动更新您主目录中的一些标准文件夹的名称使其与这个语言对应。更新将改变以下文件夹："
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "保留旧名称（_K）"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "更新名称（_U）"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "当前文件夹名称"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "新文件夹名称"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "请注意不会移动现有内容。"
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "不要再问我（_D）"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "更新文件夹时出错"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "更新通用文件夹名称使其与当前位置对应"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "用户文件夹更新"
++
+--- a/po/zh_TW.po       1970-01-01 05:30:00.000000000 +0530
++++ a/po/zh_TW.po       2010-04-27 18:55:23.330004828 +0530
+@@ -0,0 +1,67 @@ 
++# translation of zh_TW.po to Traditional Chinese
++# Gujarati translations for el package.
++# Copyright (C) 2010 THE el'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the el package.
++#
++# Automatically generated, 2010.
++# Terry Chuang <tchuang at redhat>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: zh_TW\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:11+0530\n"
++"PO-Revision-Date: 2010-04-06 16:57+1000\n"
++"Last-Translator: Terry Chuang <tchuang at redhat>\n"
++"Language-Team: Traditional Chinese <zh_TW@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
++
++#: ../update.c:159
++msgid "Update standard folders to current language?"
++msgstr "是否要將標準目錄更新為目前的語言？"
++
++#: ../update.c:161
++msgid ""
++"You have logged in in a new language. You can automatically update the names "
++"of some standard folders in your home folder to match this language. The "
++"update would change the following folders:"
++msgstr "您已使用了新的語言登入。您可自動地更新某些在您家目錄中的標準目錄名稱，以符合此語言。若進行更新將會更改下列目錄："
++
++#: ../update.c:164
++msgid "_Keep Old Names"
++msgstr "保留原有名稱(_K)"
++
++#: ../update.c:165
++msgid "_Update Names"
++msgstr "更新名稱(_U)"
++
++#: ../update.c:190
++msgid "Current folder name"
++msgstr "目前目錄名稱"
++
++#: ../update.c:195
++msgid "New folder name"
++msgstr "新目錄名稱"
++
++#: ../update.c:205
++msgid "Note that existing content will not be moved."
++msgstr "請注意，既有的內容將不會被移動。"
++
++#: ../update.c:212
++msgid "_Don't ask me this again"
++msgstr "不再次詢問此問題(_D)"
++
++#: ../update.c:229
++msgid "There was an error updating the folders"
++msgstr "更新目錄時發生了錯誤"
++
++#: ../user-dirs-update-gtk.desktop.in.h:1
++msgid "Update common folders names to match current locale"
++msgstr "將通用目錄的名稱更新為符合目前語言的名稱"
++
++#: ../user-dirs-update-gtk.desktop.in.h:2
++msgid "User folders update"
++msgstr "使用者目錄更新"
++
+
+--- xdg-user-dirs-gtk-0.8/po/LINGUAS.translations	2010-05-03 13:01:13.540999298 -0400
++++ xdg-user-dirs-gtk-0.8/po/LINGUAS	2010-05-03 13:02:32.531748725 -0400
+@@ -1,7 +1,9 @@
+ af
+ ar
++as
+ bg
+ be@latin
++bn_IN
+ ca
+ cs
+ de
+@@ -12,22 +14,33 @@
+ eu
+ fi
+ fr
++gu
++hi
+ hu
+ it
+ ja
+ ka
++kn
+ ko
+ lt
++ml
+ mr
+ nb
+ nl
+ nn
+ oc
++or
++pa
+ pl
+ ps
+ pt
+ pt_BR
++ru
+ sk
+ sl
+ sq
+ sv
++ta
++te
++zh_CN
++zh_TW
